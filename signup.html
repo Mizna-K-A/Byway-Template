@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="login.html">
+    <link rel="stylesheet" href="design.html">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body data-aos="fade-up" data-aos-duration="4000">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <nav class="navbar navbar-expand-lg ms-4 me-4">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="./images/logo.png" alt="">Byway</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a style="margin-left: 50px;" class="nav-link active" aria-current="page" href="#">Categories</a>
+          </li>
+
+          <form class="d-flex input-with-icon" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search Courses" aria-label="Search">
+            <i class="fa-solid fa-magnifying-glass icon"></i>
+          </form>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Teach on Byway</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping navcart"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html" ><button>Login</button></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><button style="color: white; background-color: black;">SignUp</button></a>
+          </li>
+          <li class="nav-item">
+            <a style="color: black;" class="nav-link" href="index.html"><i class="fa-solid fa-house"></i></a>
+        </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<section>
+<div class="row">
+  <div class="col-5 login-signup-img" data-aos="flip-left" data-aos-duration="3000">
+    <img width="100%" height="575px" src="./images/loginimg.jpeg" alt="">
+  </div>
+  <div class="col-lg-7 col-md-7 col-sm-12">
+    <h1>Create Your Account</h1>
+    <form>
+      <label for="name" class="form-label">Full Name</label>
+      <div class="mb-3 d-flex">
+        <input id="name" type="text" class="form-control w-25" placeholder="First name">&nbsp; &nbsp; &nbsp; &nbsp;
+        <input type="text" class="form-control w-25" placeholder="Last name">
+      </div>
+      <div class="mb-3">
+        <label for="uname" class="form-label">Username</label>
+        <input type="text" class="form-control w-75" id="uname" aria-describedby="emailHelp" placeholder="Username">
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control w-75" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="E-mail">
+      </div>
+      <div class="mb-3 d-flex">
+        <div>
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control w-100" id="exampleInputPassword1" placeholder="Enter Password">
+        </div>
+        &nbsp; &nbsp; &nbsp; &nbsp;
+      <div>
+        <label for="exampleInputPassword1" class="form-label">Confirm Password</label>
+          <input type="password" class="form-control w-100" id="exampleInputPassword1" placeholder="Confirm Password">
+      </div>
+      </div>
+      <button type="submit" class="btn btn-dark"><a href="design.html" id="submitbuttom">Create Account</a>&nbsp;&nbsp;<i class="fa-solid fa-arrow-right"></i></button>
+    </form>
+   <div class="d-flex"> <hr style="width: 340px;"><span>Signup</span><hr style="width: 340px;"></div>
+    <div style="text-align: center; display: flex; justify-content: space-evenly;">
+      <button style="border-radius: 5px; width: 200px; border-color: rgb(216, 212, 212);"><img width="25px" height="25px" src="./images/fb.png" alt="">Facebook</button>
+      <button style="border-radius: 5px; width: 200px; border-color: rgb(216, 212, 212)"><img width="25px" height="25px" src="./images/google.png" alt="">Google</button>
+      <button style="border-radius: 5px; width: 200px; border-color: rgb(216, 212, 212)"><img width="25px" height="25px" src="./images/image 1.png" alt="">Microsoft</button>
+    </div>
+  </div>
+</div>
+</section> 
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>
